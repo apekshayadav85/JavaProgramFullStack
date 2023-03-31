@@ -1,10 +1,9 @@
 package Basics;
 
-public class pyramidPatternRight {
+public class starPyramid {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		
 		for(int i=0;i<5;i++)
 		{
@@ -15,12 +14,13 @@ public class pyramidPatternRight {
 			}			
 			for(int j=i;j<5;j++)
 			{
-			   System.out.print("*");
+			   System.out.print(" *");
 			}
 			//System.out.println("after j loop, i=" +i);
 			System.out.println();
 		}
 		System.out.println();
+
 	}
 
 }

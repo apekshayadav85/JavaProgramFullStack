@@ -6,10 +6,10 @@ public class pyramidPattern {
 		// TODO Auto-generated method stub
 		
 	
-	for (int i = 0; i <= 10; i++) {
+	for (int i = 0; i <= 5; i++) {
 		// i=0 i=1; i=2 i=3 i=4; i=5;
 		//System.out.println(i);
-		for (int j =10;j>= i; j--) {
+		for (int j =5;j>= i; j--) {
 			System.out.print(" * ");
 			//System.out.println(j);
 		}
