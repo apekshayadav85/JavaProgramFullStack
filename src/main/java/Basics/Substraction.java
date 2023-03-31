@@ -1,17 +1,17 @@
 package Basics;
 
-public class Addition {
+public class Substraction {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 		int a,b,c;
-		a=5;
-		b=10;
-		c=a+b;
+		a=10;
+		b=8;
+		c=a-b;
+		System.out.println(c);
 		
-		System.out.println("Addition is :" +c);
-		
+
 	}
 
 }
