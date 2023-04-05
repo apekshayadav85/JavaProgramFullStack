@@ -2,7 +2,7 @@ package ArrayOpertions;
 
 import java.util.Scanner;
 
-public class userInputArray {
+public class userInputMulti {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,10 +34,10 @@ public class userInputArray {
 				array2[i][j] = sc.nextInt();
 			}
 		}
-		// addition
+		// Multiplication
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < column; j++) {
-				array3[i][j] = array1[i][j] + array2[i][j];
+				array3[i][j] = array1[i][j] * array2[i][j];
 			}
 			System.out.println();
 		}
