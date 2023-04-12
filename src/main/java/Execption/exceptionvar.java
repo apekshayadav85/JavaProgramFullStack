@@ -38,3 +38,6 @@ public class exceptionvar {
 //Built in execption
 	//Checked execption-compile time=File not found execption,Sql exception,Interrupted Execption
 	//Unchecked execption-run time=ArrayIndexOutOf, Nullpointer, airthemetic
+
+
+
